@@ -20,7 +20,7 @@ def decomposer(secondes):
     secondes = (secondes-annees*31536000-semaines*604800-jours*86400-heures*3600-minutes*60)
 
     # TODO: Afficher le nombres d'années, semaines, jours, heures, minutes et secondes
-    
+
     return (annees ,semaines ,jours ,heures ,minutes ,secondes)
 
 if __name__ == '__main__':
